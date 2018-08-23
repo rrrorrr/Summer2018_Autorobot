@@ -116,7 +116,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="define.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="Statechanger.h" />
     <ClInclude Include="StateMgr.h" />
@@ -125,9 +124,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mainarduino.cpp" />
-    <ClCompile Include="State.cpp" />
-    <ClCompile Include="StateMgr.cpp" />
-    <ClCompile Include="States.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

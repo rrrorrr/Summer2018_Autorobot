@@ -8,7 +8,7 @@ class BaseState :public Task
 protected:
 	StateChanger * STATECHANGER;
 public:
-	BaseState(StateChanger*changer);
+	BaseState(StateChanger*changer) { STATECHANGER = changer; }
 	virtual ~BaseState(){}
 	virtual void Initialize()override{}
 	virtual void Finalize()override{}
