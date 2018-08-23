@@ -1,5 +1,5 @@
-#ifndef define
-#define define
+#ifndef Define
+#define Define
 /*
 #include<ros/ros.h>
 #include<iostream>

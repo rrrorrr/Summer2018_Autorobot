@@ -1,14 +1,11 @@
 #include"StateMgr.h"
 
-/*
 
-*/
 
 int main(int argc, char **argv) {
 	/*
-	ros::init(argc, argv, "Arduino_order");
+	ros::init(argc, argv, "mainarduino");
 	ros::NodeHandle nh;
-	ros::
 	ros::Rate loop_rate(10);
 	*/
 	StateMgr*stateMgr = new StateMgr;
