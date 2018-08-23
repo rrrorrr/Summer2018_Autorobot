@@ -1,4 +1,5 @@
 #ifndef states
+#define states
 #include"define.h"
 #include"State.h"
 #include"Statechanger.h"

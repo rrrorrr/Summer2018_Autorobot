@@ -1,4 +1,5 @@
-#ifndef Task
+#ifndef task
+#define task
 class Task
 {
 public:

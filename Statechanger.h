@@ -1,5 +1,5 @@
 #ifndef Statechanger
-
+#define Statechanger
 class StateChanger
 {
 public:

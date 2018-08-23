@@ -1,4 +1,5 @@
 #ifndef Mgr
+#define Mgr
 #include"Statechanger.h"
 #include"State.h"
 #include"States.h"

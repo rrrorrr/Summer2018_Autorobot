@@ -1,4 +1,5 @@
 #ifndef State
+#define State
 #include"Task.h"
 #include"Statechanger.h"
 
